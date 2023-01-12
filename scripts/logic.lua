@@ -580,7 +580,11 @@ end
 
 function canAccessMaridia()
     if canAccessMaridiaMain() == 1 or canAccessMaridiaW() == 1 or canPowerBomb() == 1 then
-        return 1
+        if hasGravity() == 1 then
+            return 1
+        else
+            return 1, AccessibilityLevel.SequenceBreak
+        end
     end
     return 0
 end

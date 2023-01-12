@@ -2423,7 +2423,7 @@
                     "name": "Wrecked Ship - Reserves",
                     "access_rules": [
                       "gravity,$canOpenGreenDoors,$canBallJump,$canPowerBomb",
-                      "hijump,phantoon,$canOpenGreenDoors,$canBallJump,$canPowerBomb"
+                      "[],hijump,phantoon,$canOpenGreenDoors,$canBallJump,$canPowerBomb"
                     ],
                     "sections": [
                       {
@@ -2786,8 +2786,8 @@
                   {
                     "name": "Botwoon - Power Bombs",
                     "access_rules": [
-                      "gravity,$canPowerBomb,$canGetHighSpeed",
-                      "$canAccessMaridiaW,gravity,$canBombPassages"
+                      "botwoon,gravity,$canPowerBomb,$canGetHighSpeed",
+                      "botwoon,$canAccessMaridiaW,gravity,$canBombPassages"
                     ],
                     "sections": [
                       {
