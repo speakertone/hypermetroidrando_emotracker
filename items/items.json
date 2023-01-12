@@ -1,0 +1,347 @@
+[
+  {
+    "name": "Charge Beam",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/charge.png",
+    "codes": "charge"
+  },
+  {
+    "name": "Wave Beam",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/wave.png",
+    "codes": "wave"
+  },
+  {
+    "name": "Ice Beam",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/ice.png",
+    "codes": "ice"
+  },
+  {
+    "name": "Plasma Beam",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/plasma.png",
+    "codes": "plasma"
+  },
+  {
+    "name": "Spazer Beam",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/spazer.png",
+    "codes": "spazer"
+  },
+  {
+    "name": "Varia Suit",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/varia.png",
+    "codes": "varia"
+  },
+  {
+    "name": "Gravity Suit",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gravity.png",
+    "codes": "gravity"
+  },
+  {
+    "name": "Morph Ball",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/morph.png",
+    "codes": "morph"
+  },
+  {
+    "name": "Bomb",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/bomb.png",
+    "codes": "bomb"
+  },
+  {
+    "name": "Spring Ball",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/springball.png",
+    "codes": "spring"
+  },
+  {
+    "name": "High Jump",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/hijump.png",
+    "codes": "hijump"
+  },
+  {
+    "name": "Space Jump",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/space.png",
+    "codes": "space"
+  },
+  {
+    "name": "Speed Booster",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/speed.png",
+    "codes": "speed"
+  },
+  {
+    "name": "Grapple",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/grapple.png",
+    "codes": "grapple"
+  },
+  {
+    "name": "Xray",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/xray.png",
+    "codes": "xray"
+  },
+  {
+    "name": "Screw Attack",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/screw.png",
+    "codes": "screw"
+  },
+  {
+    "name": "Gate 1",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate01.png",
+    "codes": "gate01"
+  },
+  {
+    "name": "Gate 2",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate02.png",
+    "codes": "gate02"
+  },
+  {
+    "name": "Gate 3",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate03.png",
+    "codes": "gate03"
+  },
+  {
+    "name": "Gate 4",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate04.png",
+    "codes": "gate04"
+  },
+  {
+    "name": "Gate 5",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate05.png",
+    "codes": "gate05"
+  },
+  {
+    "name": "Gate 6",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate06.png",
+    "codes": "gate06"
+  },
+  {
+    "name": "Gate 7",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate07.png",
+    "codes": "gate07"
+  },
+  {
+    "name": "Gate 8",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate08.png",
+    "codes": "gate08"
+  },
+  {
+    "name": "Gate 9",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate09.png",
+    "codes": "gate09"
+  },
+  {
+    "name": "Gate 10",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate10.png",
+    "codes": "gate10"
+  },
+  {
+    "name": "Gate 11",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate11.png",
+    "codes": "gate11"
+  },
+  {
+    "name": "Gate 12",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate12.png",
+    "codes": "gate12"
+  },
+  {
+    "name": "Gate 13",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate13.png",
+    "codes": "gate13"
+  },
+  {
+    "name": "Gate 14",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate14.png",
+    "codes": "gate14"
+  },
+  {
+    "name": "Gate 15",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/gate15.png",
+    "codes": "gate15"
+  },
+  {
+    "name": "Ridley",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Boss1.png",
+    "codes": "ridley,g4"
+  },
+  {
+    "name": "Kraid",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Boss2.png",
+    "codes": "kraid,g4"
+  },
+  {
+    "name": "Phantoon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Boss3.png",
+    "codes": "phantoon,g4"
+  },
+  {
+    "name": "Draygon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Boss4.png",
+    "codes": "draygon,g4"
+  },
+  {
+    "name": "Spore Spawn",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Miniboss1.png",
+    "codes": "sporespawn"
+  },
+  {
+    "name": "Crocomire",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Miniboss2.png",
+    "codes": "crocomire"
+  },
+  {
+    "name": "Botwoon",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/Miniboss3.png",
+    "codes": "botwoon"
+  },
+  {
+    "name": "Etanks",
+    "type": "consumable",
+    "img": "images/etank.png",
+    "max_quantity": 14,
+    "codes": "etank,alltanks"
+  },
+  {
+    "name": "Etank (capturable)",
+    "type": "toggle",
+    "img": "images/etank.png",
+    "codes": "etank_icon"
+  },
+  {
+    "name": "Reserve Tanks",
+    "type": "consumable",
+    "img": "images/reservetank.png",
+    "max_quantity": 5,
+    "codes": "reservetank,alltanks"
+  },
+  {
+    "name": "Reserve Tank (capturable)",
+    "type": "toggle",
+    "img": "images/reservetank.png",
+    "codes": "reservetank_icon"
+  },
+  {
+    "name": "Missile Capacity",
+    "type": "consumable",
+    "img": "images/missile.png",
+    "max_quantity": 200,
+    "increment": 5,
+    "codes": "missile_capacity"
+  },
+  {
+    "name": "Missile",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/missile.png",
+    "codes": "missile"
+  },
+  {
+    "name": "Super Missile Capacity",
+    "type": "consumable",
+    "img": "images/super.png",
+    "max_quantity": 120,
+    "increment": 10,
+    "codes": "supermissile_capacity"
+  },
+  {
+    "name": "Super Missile",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/super.png",
+    "codes": "supermissile,super"
+  },
+  {
+    "name": "Power Bomb Capacity",
+    "type": "consumable",
+    "img": "images/powerbomb.png",
+    "max_quantity": 165,
+    "increment": 15,
+    "codes": "powerbomb_capacity"
+  },
+  {
+    "name": "Power Bomb",
+    "type": "toggle",
+    "loop": "true",
+    "img": "images/powerbomb.png",
+    "codes": "powerbomb,pb"
+  },
+  {
+    "name": "Ammo Capacity",
+    "type": "consumable",
+    "img": "images/ammo.png",
+    "max_quantity": 500,
+    "increment": 5,
+    "codes": "ammo"
+  }
+]

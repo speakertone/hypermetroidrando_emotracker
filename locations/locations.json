@@ -1,0 +1,3281 @@
+[
+  {
+    "name": "All Locations",
+    "children": [
+      {
+        "name": "Crateria",
+        "color": "#d83890",
+        "children": [
+          {
+            "name": "Surface Crateria",
+            "children": [
+              {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                  {
+                    "name": "Spazer Beam",
+                    "access_rules": [
+                      "$canFlyStraightUp,$canBombWalls",
+                      "$canDoCrumblePassages"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1832,
+                        "y": 660
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 616,
+                        "y": 116
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Crateria Ship - Reserve Tank",
+                    "access_rules": [
+                      "$canFlyStraightUp,$canDoSpeedPassages",
+                      "{$canFlyStraightUp,morph}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2312,
+                        "y": 660
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 1096,
+                        "y": 116
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                  {
+                    "name": "Backflip Tutorial",
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2120,
+                        "y": 756
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 904,
+                        "y": 212
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Crateria Cliff - Power Bombs",
+                    "access_rules": [
+                      "$canGetHighSpeed,speed"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2376,
+                        "y": 788
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 1160,
+                        "y": 244
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wrecked Ship Entrance - Missiles",
+                    "access_rules": [
+                      "$canGetHighSpeed"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2632,
+                        "y": 788
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 1416,
+                        "y": 244
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Walljump Missiles",
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2280,
+                        "y": 1108
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 1064,
+                        "y": 564
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tourian Gates",
+                "children": [
+                  {
+                    "name": "Gate 1",
+                    "sections": [
+                      {
+                        "name": "Tourian Gate",
+                        "hosted_item": "gate01"
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2312,
+                        "y": 1204
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 1096,
+                        "y": 660
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gate 2",
+                    "access_rules": [
+                      "$canOpenRedDoors,$canGetHighSpeed,$canBallJump,$canBombPassages",
+                      "$canOpenRedDoors,sporespawn,$canBallJump,$canBombPassages",
+                      "$canOpenRedDoors,kraid,$canBallJump,$canBombPassages"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Tourian Gate",
+                        "hosted_item": "gate02"
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1608,
+                        "y": 756
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 392,
+                        "y": 212
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gate 3",
+                    "access_rules": [
+                      "$canOpenGreenDoors,$canFlyStraightUp,morph"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Tourian Gate",
+                        "hosted_item": "gate03"
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2280,
+                        "y": 660
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 1064,
+                        "y": 116
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Deep Crateria",
+            "access_rules": [
+              "$canAccessDeepCrateria"
+            ],
+            "children": [
+              {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                  {
+                    "name": "Crateria E-Tank",
+                    "access_rules": [
+                      "$canOpenRedDoors"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1512,
+                        "y": 1012
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 296,
+                        "y": 468
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wave Beam",
+                    "access_rules": [
+                      "$canGetHighSpeed",
+                      "ice",
+                      "{$canRevealItems}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2152,
+                        "y": 1044
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 936,
+                        "y": 500
+                      }
+                    ]
+                  },
+                  {
+                    "name": "X-Ray",
+                    "access_rules": [
+                      "gate01,$canOpenRedDoors,$canBombWalls,morph"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1448,
+                        "y": 1108
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 232,
+                        "y": 564
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Morphing Ball",
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2120,
+                        "y": 1268
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 904,
+                        "y": 724
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                  {
+                    "name": "Intended First Missiles",
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1608,
+                        "y": 884
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 392,
+                        "y": 340
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Early Supers",
+                    "access_rules": [
+                      "$canFlyStraightUp,morph"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1768,
+                        "y": 916
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 552,
+                        "y": 372
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sidehopper Lake",
+                    "access_rules": [
+                      "$canPowerBomb,$canBallJump,hijump,space",
+                      "$canPowerBomb,$canBallJump,$canGetHighSpeed,gravity",
+                      "{$canPowerBomb,$canBallJump}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1704,
+                        "y": 980
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 488,
+                        "y": 436
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Pipe Missiles",
+                    "access_rules": [
+                      "$canOpenRedDoors"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1928,
+                        "y": 1044
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 712,
+                        "y": 500
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wave Beam - Missiles",
+                    "access_rules": [
+                      "$canBombPassages",
+                      "$canDoSpeedPassages"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2024,
+                        "y": 1108
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 808,
+                        "y": 564
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Tunnel Missiles",
+                    "access_rules": [
+                      "$canOpenRedDoors,$canBombPassages,$canDoCrumblePassages",
+                      "{$canOpenRedDoors,$canRevealItems}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1768,
+                        "y": 1140
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 552,
+                        "y": 596
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wall Chozo",
+                    "access_rules": [
+                      "$canBombWalls"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1928,
+                        "y": 1204
+                      },
+                      {
+                        "map": "crateriamap",
+                        "x": 712,
+                        "y": 660
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Brinstar",
+        "color": "#017e13",
+        "access_rules": [
+          "$canAccessBrinstar"
+        ],
+        "children": [
+          {
+            "name": "Major Items",
+            "chest_unopened_img": "images/major_unopened.png",
+            "chest_opened_img": "images/major_opened.png",
+            "children": [
+              {
+                "name": "Brinstar - Reserves",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,$canOpenRedDoors,$canFlyStraightUp",
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,$canOpenGreenDoors"
+                ],
+                "sections": [
+                  {
+                    "name": "Major Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1192,
+                    "y": 116
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 952,
+                    "y": 116
+                  }
+                ]
+              },
+              {
+                "name": "Space Jump",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,$canFlyStraightUp,morph,$canBombWalls,$canOpenGreenDoors",
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,$canOpenGreenDoors",
+                  "$canGetPastBrinstarEntrance,$canGetHigh,morph,$canBombWalls,$canOpenGreenDoors",
+                  "kraid"
+                ],
+                "sections": [
+                  {
+                    "name": "Major Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1704,
+                    "y": 116
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 1464,
+                    "y": 116
+                  }
+                ]
+              },
+              {
+                "name": "Upper Brinstar - E-tank",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,$canOpenRedDoors",
+                  "$canGetPastBrinstarEntrance,$canOpenGreenDoors,morph,grapple",
+                  "$canGetPastBrinstarEntrance,$canOpenGreenDoors,morph,space",
+                  "$canGetPastBrinstarEntrance,$canOpenGreenDoors,morph,gravity,$canGetHighSpeed",
+                  "{$canGetPastBrinstarEntrance,$canOpenGreenDoors,morph,$canBombWalls}"
+                ],
+                "sections": [
+                  {
+                    "name": "Major Item",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1000,
+                    "y": 148
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 760,
+                    "y": 148
+                  }
+                ]
+              },
+              {
+                "name": "Spore Spawn - E-tank",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,$canFlyStraightUp",
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,$canOpenGreenDoors",
+                  "$canGetPastBrinstarEntrance,$canOpenGreenDoors,$canGetHigh,morph,$canBombWalls"
+                ],
+                "sections": [
+                  {
+                    "name": "Major Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1416,
+                    "y": 212
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 1176,
+                    "y": 212
+                  }
+                ]
+              },
+              {
+                "name": "Mini-Kraid E-tank",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,speed"
+                ],
+                "sections": [
+                  {
+                    "name": "Major Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 360,
+                    "y": 436
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 120,
+                    "y": 436
+                  }
+                ]
+              },
+              {
+                "name": "Red Grapple Tower",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,morph"
+                ],
+                "sections": [
+                  {
+                    "name": "Major Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 936,
+                    "y": 436
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 696,
+                    "y": 436
+                  }
+                ]
+              },
+              {
+                "name": "Hi-Jump Boots",
+                "access_rules": [
+                  "$canGetHighSpeed,$canBombPassages",
+                  "sporespawn,$canBombPassages",
+                  "kraid,$canBombPassages",
+                  "{$canGetHighSpeed}",
+                  "{sporespawn}",
+                  "{kraid}"
+                ],
+                "sections": [
+                  {
+                    "name": "Major Item",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1512,
+                    "y": 468
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 1272,
+                    "y": 468
+                  }
+                ]
+              },
+              {
+                "name": "Grapple Beam",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,morph,$canOpenRedDoors"
+                ],
+                "sections": [
+                  {
+                    "name": "Major Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 840,
+                    "y": 532
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 600,
+                    "y": 532
+                  }
+                ]
+              },
+              {
+                "name": "Bomb Torizo",
+                "access_rules": [
+                  "gate01,$canOpenRedDoors,morph",
+                  "gate01,$canOpenRedDoors,speed",
+                  "$canGetPastBrinstarEntrance,$canBombPassages"
+                ],
+                "sections": [
+                  {
+                    "name": "Major Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1352,
+                    "y": 532
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 1112,
+                    "y": 532
+                  }
+                ]
+              },
+              {
+                "name": "Charge Beam",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,grapple",
+                  "$canGetPastBrinstarEntrance,gravity",
+                  "$canGetPastBrinstarEntrance,$canGetHighSpeed",
+                  "{$canGetPastBrinstarEntrance}"
+                ],
+                "sections": [
+                  {
+                    "name": "Major Item",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1224,
+                    "y": 596
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 984,
+                    "y": 596
+                  }
+                ]
+              },
+              {
+                "name": "Frog - E-tank",
+                "access_rules": [
+                  "$canGetHighSpeed",
+                  "sporespawn"
+                ],
+                "sections": [
+                  {
+                    "name": "Major Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1704,
+                    "y": 660
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 1464,
+                    "y": 660
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Minor Items",
+            "chest_unopened_img": "images/minor_unopened.png",
+            "chest_opened_img": "images/minor_opened.png",
+            "children": [
+              {
+                "name": "Dachora Missiles",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,$canFlyStraightUp,morph,$canBombWalls,",
+                  "$canGetPastBrinstarEntrance,$canFlyStraightUp,$canBombPassages",
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,$canOpenGreenDoors",
+                  "$canGetPastBrinstarEntrance,$canOpenGreenDoors,$canGetHigh,morph,$canBombWalls"
+                ],
+                "sections": [
+                  {
+                    "name": "Minor Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1352,
+                    "y": 116
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 1112,
+                    "y": 116
+                  }
+                ]
+              },
+              {
+                "name": "Kago Lake - Supers",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,$canOpenGreenDoors,morph,space",
+                  "$canGetPastBrinstarEntrance,$canOpenGreenDoors,morph,gravity,$canGetHighSpeed",
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,$canOpenRedDoors,$canGetHighSpeed,space",
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,$canOpenRedDoors,$canGetHighSpeed,gravity",
+                  "{$canGetPastBrinstarEntrance,$canOpenGreenDoors,morph}",
+                  "{$canGetPastBrinstarEntrance,$canPowerBomb,$canOpenRedDoors,$canGetHighSpeed}"
+                ],
+                "sections": [
+                  {
+                    "name": "Minor Item",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 712,
+                    "y": 244
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 472,
+                    "y": 244
+                  }
+                ]
+              },
+              {
+                "name": "Grate - Power Bombs",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,$canOpenRedDoors,$canFlyStraightUp",
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,$canOpenGreenDoors"
+                ],
+                "sections": [
+                  {
+                    "name": "Minor Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 872,
+                    "y": 276
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 632,
+                    "y": 276
+                  }
+                ]
+              },
+              {
+                "name": "Spore Spawn Missiles",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,$canBombPassages,grapple",
+                  "$canGetPastBrinstarEntrance,$canBombPassages,$canGetHigh",
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,$canOpenGreenDoors",
+                  "$canGetPastBrinstarEntrance,$canOpenGreenDoors,$canGetHigh,morph,$canBombWalls"
+                ],
+                "sections": [
+                  {
+                    "name": "Minor Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1288,
+                    "y": 276
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 1048,
+                    "y": 276
+                  }
+                ]
+              },
+              {
+                "name": "Kraid Supers",
+                "access_rules": [
+                  "kraid,$canFly"
+                ],
+                "sections": [
+                  {
+                    "name": "Minor Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1576,
+                    "y": 276
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 1336,
+                    "y": 276
+                  }
+                ]
+              },
+              {
+                "name": "Grapple Tower Blue - Missiles",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance"
+                ],
+                "sections": [
+                  {
+                    "name": "Minor Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1096,
+                    "y": 372
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 856,
+                    "y": 372
+                  }
+                ]
+              },
+              {
+                "name": "Bomb Tower - Middle",
+                "access_rules": [
+                  "gate01,$canOpenRedDoors,morph,speed",
+                  "gate01,$canOpenRedDoors,$canBombPassages",
+                  "$canGetPastBrinstarEntrance,morph,speed",
+                  "$canGetPastBrinstarEntrance,$canBombPassages",
+                  "{gate01,$canOpenRedDoors,speed}",
+                  "{$canGetPastBrinstarEntrance,speed}"
+                ],
+                "sections": [
+                  {
+                    "name": "Minor Item",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1288,
+                    "y": 436
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 1048,
+                    "y": 436
+                  }
+                ]
+              },
+              {
+                "name": "Bomb Tower - Right",
+                "access_rules": [
+                  "gate01,$canOpenRedDoors,morph,$canBombWalls",
+                  "$canGetPastBrinstarEntrance,morph,$canBombWalls",
+                  "{gate01,$canOpenRedDoors}",
+                  "{$canGetPastBrinstarEntrance}"
+                ],
+                "sections": [
+                  {
+                    "name": "Minor Item",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1352,
+                    "y": 436
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 1112,
+                    "y": 436
+                  }
+                ]
+              },
+              {
+                "name": "Blue Ripper Tower",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,$canOpenGreenDoors",
+                  "$canGetPastBrinstarEntrance,$canFlyStraightUp,$canOpenRedDoors"
+                ],
+                "sections": [
+                  {
+                    "name": "Minor Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1032,
+                    "y": 500
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 792,
+                    "y": 500
+                  }
+                ]
+              },
+              {
+                "name": "Chozo Lake - Missiles",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,grapple",
+                  "$canGetPastBrinstarEntrance,$canFly",
+                  "$canGetPastBrinstarEntrance,gravity,$canGetHighSpeed",
+                  "$canGetPastBrinstarEntrance,ice",
+                  "$canGetHighSpeed,$canBombPassages,grapple",
+                  "$canGetHighSpeed,$canBombPassages,$canFly",
+                  "$canGetHighSpeed,$canBombPassages,gravity",
+                  "$canGetHighSpeed,$canBombPassages,ice",
+                  "{$canGetPastBrinstarEntrance,$canRevealItems}",
+                  "{$canGetHighSpeed,$canBombPassages,$canRevealItems}"
+                ],
+                "sections": [
+                  {
+                    "name": "Minor Item",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1512,
+                    "y": 564
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 1272,
+                    "y": 564
+                  }
+                ]
+              },
+              {
+                "name": "Crossroads - Missiles",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,morph,charge",
+                  "$canGetPastBrinstarEntrance,morph,$canOpenGreenDoors",
+                  "{$canGetPastBrinstarEntrance,morph}"
+                ],
+                "sections": [
+                  {
+                    "name": "Minor Item",
+                    "capture_item": true,
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 808,
+                    "y": 628
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 568,
+                    "y": 628
+                  }
+                ]
+              },
+              {
+                "name": "Caterpillar Missiles",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance"
+                ],
+                "sections": [
+                  {
+                    "name": "Minor Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 968,
+                    "y": 628
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 728,
+                    "y": 628
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tourian Gates",
+            "children": [
+              {
+                "name": "Gate 4",
+                "access_rules": [
+                  "$canOpenRedDoors,$canGetPastBrinstarEntrance,$canBombPassages,grapple",
+                  "$canOpenRedDoors,$canGetPastBrinstarEntrance,$canBombPassages,$canGetHigh",
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,$canOpenGreenDoors",
+                  "$canGetPastBrinstarEntrance,$canOpenGreenDoors,$canGetHigh,morph,$canBombWalls",
+                  "sporespawn"
+                ],
+                "sections": [
+                  {
+                    "name": "Tourian Gate",
+                    "hosted_item": "gate04"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1608,
+                    "y": 244
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 1368,
+                    "y": 244
+                  }
+                ]
+              },
+              {
+                "name": "Gate 5",
+                "access_rules": [
+                  "kraid,$canFlyStraightUp,$canOpenRedDoors"
+                ],
+                "sections": [
+                  {
+                    "name": "Tourian Gate",
+                    "hosted_item": "gate05"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 1736,
+                    "y": 372
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 1496,
+                    "y": 372
+                  }
+                ]
+              },
+              {
+                "name": "Gate 6",
+                "access_rules": [
+                  "$canGetPastBrinstarEntrance,$canPowerBomb,$canDoSpeedPassages,$canOpenGreenDoors"
+                ],
+                "sections": [
+                  {
+                    "name": "Tourian Gate",
+                    "hosted_item": "gate06"
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 488,
+                    "y": 436
+                  },
+                  {
+                    "map": "brinstarmap",
+                    "x": 248,
+                    "y": 436
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Norfair",
+        "access_rules": [
+          "$canAccessNorfair"
+        ],
+        "children": [
+          {
+            "name": "Surface Norfair",
+            "color": "#d42020",
+            "children": [
+              {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                  {
+                    "name": "Spring Ball",
+                    "access_rules": [
+                      "$canAccessNorfairM,$canBallJump",
+                      "varia,crocomire,$canFlyStraightUp,$canBallJump",
+                      "varia,$canPowerBomb,$canFlyStraightUp,$canBallJump"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 136,
+                        "y": 1364
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 104,
+                        "y": 564
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Ice - E-tank",
+                    "access_rules": [
+                      "varia,$canAccessNorfairC,$canDoCrumblePassages,grapple",
+                      "varia,$canAccessNorfairC,$canDoCrumblePassages,$canFly",
+                      "varia,$canAccessNorfairC,$canDoCrumblePassages,gravity,speed",
+                      "varia,$canAccessNorfairMain,$canDoCrumblePassages,grapple",
+                      "varia,$canAccessNorfairMain,$canDoCrumblePassages,$canFly",
+                      "varia,$canAccessNorfairMain,$canDoCrumblePassages,gravity,speed",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors,$canDoCrumblePassages,grapple",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors,$canDoCrumblePassages,$canFly",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors,$canDoCrumblePassages,gravity,speed",
+                      "varia,$canAccessNorfairM,$canDoCrumblePassages,grapple",
+                      "varia,$canAccessNorfairM,$canDoCrumblePassages,$canFly",
+                      "varia,$canAccessNorfairM,$canDoCrumblePassages,gravity,speed",
+                      "{$canAccessNorfairC,$canDoCrumblePassages,grapple,$countTanks:10}",
+                      "{$canAccessNorfairC,$canDoCrumblePassages,$canFly,$countTanks:10}",
+                      "{$canAccessNorfairC,$canDoCrumblePassages,gravity,speed,$countTanks:10}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1512,
+                        "y": 1364
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1480,
+                        "y": 564
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Norfair - Reserves",
+                    "access_rules": [
+                      "varia,$canOpenGreenDoors,$canPowerBomb,gravity,$canBallJump,$countTanks:6",
+                      "varia,$canAccessNorfairMain,$canGetHigh,$canPowerBomb,gravity,$canBallJump,$countTanks:6",
+                      "varia,$canAccessNorfairMain,ice,$canPowerBomb,gravity,$canBallJump,$countTanks:6",
+                      "varia,$canAccessNorfairB,$canPowerBomb,gravity,$canBallJump,$countTanks:6",
+                      "varia,$canAccessNorfairM,gravity,$canBallJump,$countTanks:6",
+                      "{varia,$canOpenGreenDoors,$canPowerBomb,$canRevealItems}",
+                      "{varia,$canAccessNorfairMain,$canGetHigh,$canPowerBomb,$canRevealItems}",
+                      "{varia,$canAccessNorfairMain,ice,$canPowerBomb,$canRevealItems}",
+                      "{varia,$canAccessNorfairB,$canPowerBomb,$canRevealItems}",
+                      "{varia,$canAccessNorfairM,$canRevealItems}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1000,
+                        "y": 1492
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 968,
+                        "y": 692
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Ice Beam",
+                    "access_rules": [
+                      "$canAccessNorfairC,$countTanks:6",
+                      "varia,$canAccessNorfairMain",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors",
+                      "varia,$canAccessNorfairM",
+                      "{$canAccessNorfairC}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1928,
+                        "y": 1588
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1896,
+                        "y": 788
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Lava Dive - E-tank",
+                    "access_rules": [
+                      "gravity,$canAccessNorfairC",
+                      "$canAccessNorfairMain,$countTanks:9",
+                      "gravity,$canAccessNorfairMain",
+                      "gravity,$canAccessNorfairB,$canOpenGreenDoors",
+                      "gravity,$canAccessNorfairM",
+                      "{$canAccessNorfairMain}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1352,
+                        "y": 1684
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1320,
+                        "y": 884
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                  {
+                    "name": "Lava Maze - Cliff Supers",
+                    "access_rules": [
+                      "varia,$canOpenGreenDoors,$canFlyStraightUp",
+                      "varia,$canAccessNorfairB,$canFlyStraightUp",
+                      "$canAccessNorfairB,space,$countTanks:5",
+                      "$canAccessNorfairB,speed,$countTanks:5",
+                      "$canAccessNorfairB,hijump,$countTanks:7",
+                      "{$canAccessNorfairB,space}",
+                      "{$canAccessNorfairB,speed}",
+                      "{$canAccessNorfairB,hijump,$countTanks:4}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1096,
+                        "y": 980
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1064,
+                        "y": 180
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Acid Lake - Cliff Missiles",
+                    "access_rules": [
+                      "varia,$canOpenGreenDoors,$canFlyStraightUp",
+                      "varia,$canAccessNorfairB,$canFlyStraightUp",
+                      "$canAccessNorfairB,space,$countTanks:12",
+                      "$canAccessNorfairB,speed,$countTanks:12",
+                      "{$canAccessNorfairB,space,$countTanks:6}",
+                      "{$canAccessNorfairB,speed,$countTanks:6}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1256,
+                        "y": 1140
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1224,
+                        "y": 340
+                      }
+                    ]
+                  },
+                  {
+                    "name": "GT Supers",
+                    "access_rules": [
+                      "varia,crocomire,$canPowerBomb",
+                      "varia,$canOpenGreenDoors,$canFlyStraightUp,$canPowerBomb",
+                      "varia,$canOpenGreenDoors,grapple,$canPowerBomb",
+                      "varia,$canAccessNorfairB,$canPowerBomb",
+                      "$canAccessNorfairB,$canPowerBomb,$countTanks:10",
+                      "$canAccessDeepNorfair,$canPowerBomb",
+                      "{$canAccessNorfairB,$canPowerBomb,$countTanks:4}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 872,
+                        "y": 1332
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 840,
+                        "y": 532
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Norfair - Speed Valley",
+                    "access_rules": [
+                      "varia,$canOpenGreenDoors,speed,morph",
+                      "varia,$canAccessNorfairMain,speed,morph",
+                      "varia,$canAccessNorfairB,$canBombWalls,$canOpenRedDoors,speed,morph",
+                      "varia,$canAccessNorfairM,speed",
+                      "{varia,$canOpenGreenDoors,$canRevealItems}",
+                      "{varia,$canOpenGreenDoors,speed}",
+                      "{varia,$canAccessNorfairMain,$canGetHigh,$canRevealItems}",
+                      "{varia,$canAccessNorfairMain,speed}",
+                      "{varia,$canAccessNorfairB,$canBombWalls,$canOpenRedDoors,$canRevealItems}",
+                      "{varia,$canAccessNorfairB,$canBombWalls,$canOpenRedDoors,speed}",
+                      "{varia,$canAccessNorfairM,$canRevealItems}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1256,
+                        "y": 1364
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1224,
+                        "y": 564
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Missile Tower - Middle",
+                    "access_rules": [
+                      "varia,$canAccessNorfairC,morph",
+                      "varia,$canAccessNorfairMain,$canOpenRedDoors,morph",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors,morph",
+                      "varia,$canAccessNorfairB,morph,$canBombWalls,$canOpenRedDoors",
+                      "varia,$canAccessNorfairM",
+                      "{$canAccessNorfairC,morph,$countTanks:8}",
+                      "{$canAccessNorfairMain,$canGetHighSpeed,grapple,$canOpenRedDoors,$countTanks:6}",
+                      "{$canAccessNorfairMain,space,$canOpenRedDoors,$countTanks:6}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1832,
+                        "y": 1428
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1800,
+                        "y": 628
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Metroid Chozo",
+                    "access_rules": [
+                      "varia,$canAccessNorfairM",
+                      "varia,$canAccessNorfairB,$canPowerBomb",
+                      "varia,$canAccessNorfairC,$canPowerBomb",
+                      "varia,$canAccessNorfairMain,$canGetHighSpeed,$canPowerBomb",
+                      "varia,$canAccessNorfairMain,ice,$canPowerBomb",
+                      "varia,$canAccessNorfairMain,$canOpenGreenDoors,$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 808,
+                        "y": 1524
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 776,
+                        "y": 724
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Teaser Supers",
+                    "access_rules": [
+                      "varia,$canAccessNorfairMain,$canOpenGreenDoors,$canGetHigh",
+                      "varia,$canAccessNorfairC,$canOpenGreenDoors,$canGetHigh",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors,$canGetHigh",
+                      "varia,$canAccessNorfairM,$canFlyStraightUp",
+                      "{varia,$canAccessNorfairMain,$canGetHighSpeed,$canRevealItems}",
+                      "{varia,$canAccessNorfairMain,ice,$canRevealItems}",
+                      "{varia,$canAccessNorfairMain,$canOpenGreenDoors,morph,$canRevealItems}",
+                      "{varia,$canAccessNorfairC,$canGetHighSpeed,$canRevealItems}",
+                      "{varia,$canAccessNorfairC,ice,$canRevealItems}",
+                      "{varia,$canAccessNorfairC,morph,$canRevealItems}",
+                      "{varia,$canAccessNorfairB,$canOpenGreenDoors,$canRevealItems}",
+                      "{varia,$canAccessNorfairB,morph,$canBombWalls,$canOpenRedDoors,$canRevealItems}",
+                      "{varia,$canAccessNorfairM,$canRevealItems}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1224,
+                        "y": 1524
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1192,
+                        "y": 724
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Teaser Missiles",
+                    "access_rules": [
+                      "varia,$canAccessNorfairMain,$canGetHighSpeed",
+                      "varia,$canAccessNorfairMain,ice",
+                      "varia,$canAccessNorfairMain,$canOpenGreenDoors,morph",
+                      "varia,$canAccessNorfairC,$canGetHighSpeed",
+                      "varia,$canAccessNorfairC,ice",
+                      "varia,$canAccessNorfairC,morph",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors",
+                      "varia,$canAccessNorfairB,morph,$canBombWalls,$canOpenRedDoors",
+                      "varia,$canAccessNorfairM"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1256,
+                        "y": 1524
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1224,
+                        "y": 724
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Mining Quarry - Intended Supers",
+                    "access_rules": [
+                      "varia,crocomire,$canBombPassages,$canOpenGreenDoors",
+                      "varia,$canAccessDeepNorfair,$canBombPassages,$canFly",
+                      "varia,$canAccessDeepNorfair,$canBombPassages,$canOpenGreenDoors",
+                      "varia,$canAccessNorfairM",
+                      "varia,$canAccessNorfairB,$canBombPassages,$canOpenGreenDoors",
+                      "varia,$canAccessNorfairMain,morph,$canOpenGreenDoors",
+                      "varia,$canAccessNorfairC,morph",
+                      "{varia,crocomire,$canBombPassages}",
+                      "{varia,$canAccessDeepNorfair,$canBombPassages}",
+                      "{varia,$canAccessNorfairB,$canBombPassages}",
+                      "{varia,$canAccessNorfairMain,$canGetHighSpeed,$canPowerBomb}",
+                      "{varia,$canAccessNorfairMain,ice,$canPowerBomb}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 520,
+                        "y": 1556
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 488,
+                        "y": 756
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Mining Quarry - Missiles",
+                    "access_rules": [
+                      "varia,crocomire,$canBombPassages,$canDoCrumblePassages",
+                      "varia,$canAccessDeepNorfair,$canBombPassages,$canOpenGreenDoors,$canDoCrumblePassages",
+                      "varia,$canAccessNorfairM,$canDoCrumblePassages",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors,$canDoCrumblePassages",
+                      "varia,$canAccessNorfairB,$canPowerBomb,$canDoCrumblePassages",
+                      "varia,$canAccessNorfairMain,$canOpenGreenDoors,$canDoCrumblePassages",
+                      "varia,$canAccessNorfairMain,$canGetHighSpeed,$canPowerBomb,$canDoCrumblePassages",
+                      "varia,$canAccessNorfairMain,ice,$canPowerBomb,$canDoCrumblePassages",
+                      "varia,$canAccessNorfairC,$canDoCrumblePassages",
+                      "{varia,crocomire,$canBombPassages}",
+                      "{varia,$canAccessDeepNorfair,$canBombPassages,$canOpenGreenDoors}",
+                      "{varia,$canAccessNorfairM}",
+                      "{varia,$canAccessNorfairB,$canOpenGreenDoors}",
+                      "{varia,$canAccessNorfairB,$canPowerBomb}",
+                      "{varia,$canAccessNorfairMain,$canOpenGreenDoors,morph}",
+                      "{varia,$canAccessNorfairMain,$canGetHighSpeed,$canPowerBomb}",
+                      "{varia,$canAccessNorfairMain,ice,$canPowerBomb}",
+                      "{varia,$canAccessNorfairC,morph}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 776,
+                        "y": 1556
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 744,
+                        "y": 756
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Missile Tower - Lower",
+                    "access_rules": [
+                      "varia,$canAccessNorfairC",
+                      "varia,$canAccessNorfairMain",
+                      "$canAccessNorfairMain,$countTanks:11",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors",
+                      "varia,$canAccessNorfairB,morph,$canBombWalls,$canOpenRedDoors",
+                      "varia,$canAccessNorfairM",
+                      "{$canAccessNorfairC,$countTanks:8}",
+                      "{$canAccessNorfairMain,$canGetHighSpeed,grapple,$canOpenRedDoors,$countTanks:6}",
+                      "{$canAccessNorfairMain,space,$canOpenRedDoors,$countTanks:6}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1832,
+                        "y": 1556
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1800,
+                        "y": 756
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Missile Tower - Ridley Statue",
+                    "access_rules": [
+                      "varia,$canAccessNorfairC",
+                      "varia,$canAccessNorfairMain",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors",
+                      "varia,$canAccessNorfairB,morph,$canBombWalls",
+                      "varia,$canAccessNorfairM",
+                      "{$canAccessNorfairMain,$canGetHighSpeed,grapple,$canOpenRedDoors,$countTanks:11}",
+                      "{$canAccessNorfairMain,space,$canOpenRedDoors,$countTanks:11}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1864,
+                        "y": 1588
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1832,
+                        "y": 788
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Boulder Supers",
+                    "access_rules": [
+                      "varia,$canAccessNorfairM",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors,morph",
+                      "varia,$canAccessNorfairMain,$canOpenGreenDoors,morph",
+                      "varia,$canAccessNorfairC,$canOpenGreenDoors,morph"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 776,
+                        "y": 1652
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 744,
+                        "y": 852
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Boulder Hallway - Missiles",
+                    "access_rules": [
+                      "varia,crocomire,morph",
+                      "varia,$canAccessNorfairM",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors,$canBombPassages",
+                      "varia,$canAccessNorfairB,$canPowerBomb",
+                      "varia,$canAccessNorfairMain,$canOpenGreenDoors,$canBombPassages",
+                      "varia,$canAccessNorfairMain,$canGetHighSpeed,$canPowerBomb",
+                      "varia,$canAccessNorfairMain,ice,$canPowerBomb",
+                      "varia,$canAccessNorfairC,$canBombPassages"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 520,
+                        "y": 1684
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 488,
+                        "y": 884
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Crocomire - Missiles",
+                    "access_rules": [
+                      "varia,$canAccessNorfairMain,$canOpenGreenDoors,morph",
+                      "varia,$canAccessNorfairMain,$canGetHighSpeed,morph,$canBombWalls",
+                      "varia,$canAccessNorfairMain,ice,morph,$canBombWalls",
+                      "varia,$canAccessNorfairC",
+                      "varia,$canAccessNorfairB,morph,$canBombWalls",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors,morph",
+                      "varia,$canAccessNorfairM",
+                      "varia,crocomire"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1032,
+                        "y": 1684
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1000,
+                        "y": 884
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tourian Gates",
+                "children": [
+                  {
+                    "name": "Gate 7",
+                    "access_rules": [
+                      "varia,$canAccessNorfairC",
+                      "$canAccessNorfairC,$countTanks:9",
+                      "varia,$canAccessNorfairMain",
+                      "varia,$canAccessNorfairB,$canOpenGreenDoors",
+                      "varia,$canAccessNorfairM"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Tourian Gate",
+                        "hosted_item": "gate07"
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1736,
+                        "y": 1524
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1704,
+                        "y": 724
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gate 8",
+                    "access_rules": [
+                      "varia,$canOpenGreenDoors,$canFlyStraightUp,$canDoCrumblePassages,$canBombPassages",
+                      "varia,$canOpenGreenDoors,grapple,$canDoCrumblePassages,$canBombPassages",
+                      "varia,$canAccessNorfairB,$canDoCrumblePassages,$canBombPassages"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Tourian Gate",
+                        "hosted_item": "gate08"
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 1192,
+                        "y": 1140
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 1160,
+                        "y": 340
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Deep Norfair",
+            "color": "#d42020",
+            "access_rules": [
+              "$canAccessDeepNorfair"
+            ],
+            "children": [
+              {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                  {
+                    "name": "Speedbooster",
+                    "access_rules": [
+                      "$canDoSpeedPassages",
+                      "$canBombPassages"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 904,
+                        "y": 1108
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 872,
+                        "y": 308
+                      }
+                    ]
+                  },
+                  {
+                    "name": "LN Elevator - E-tank",
+                    "access_rules": [
+                      "$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 744,
+                        "y": 1364
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 712,
+                        "y": 564
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                  {
+                    "name": "Ridley Supers",
+                    "access_rules": [
+                      "$canDoCrumblePassages,$canDefeatSilverSpacePirates,$canGetHighSpeed,$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 552,
+                        "y": 1204
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 520,
+                        "y": 404
+                      }
+                    ]
+                  },
+                  {
+                    "name": "LN Warehouse",
+                    "access_rules": [
+                      "$canAccessNorfairM",
+                      "$canDoCrumblePassages,$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 392,
+                        "y": 1332
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 360,
+                        "y": 532
+                      }
+                    ]
+                  },
+                  {
+                    "name": "LN Elevator - Left Missile",
+                    "access_rules": [
+                      "speed"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 584,
+                        "y": 1332
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 552,
+                        "y": 532
+                      }
+                    ]
+                  },
+                  {
+                    "name": "LN Elevator - Right Missile",
+                    "access_rules": [
+                      "$canBombPassages,speed"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 904,
+                        "y": 1364
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 872,
+                        "y": 564
+                      }
+                    ]
+                  },
+                  {
+                    "name": "LN Speed Challenge",
+                    "access_rules": [
+                      "$canPowerBomb,space,speed"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 712,
+                        "y": 1460
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 680,
+                        "y": 660
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tourian Gates",
+                "children": [
+                  {
+                    "name": "Gate 9",
+                    "access_rules": [
+                      "$canOpenGreenDoors,$canPowerBomb,speed"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Tourian Gate",
+                        "hosted_item": "gate09"
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 776,
+                        "y": 1428
+                      },
+                      {
+                        "map": "norfairmap",
+                        "x": 744,
+                        "y": 628
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wrecked Ship",
+        "access_rules": [
+          "$canAccessWreckedShip"
+        ],
+        "children": [
+          {
+            "name": "Surface Wrecked Ship",
+            "color": "#d1b102",
+            "children": [
+              {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                  {
+                    "name": "Phantoon E-tank",
+                    "access_rules": [
+                      "grapple",
+                      "$canGetHigh"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2952,
+                        "y": 884
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 440,
+                        "y": 340
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                  {
+                    "name": "Conveyor Belt Robots",
+                    "access_rules": [
+                      "$canOpenGreenDoors"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2888,
+                        "y": 788
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 376,
+                        "y": 244
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Spike Tunnel",
+                    "access_rules": [
+                      "$canOpenRedDoors,$canBombPassages,phantoon",
+                      "$canOpenRedDoors,$canBombPassages,$countTanks:5",
+                      "{$canOpenRedDoors,$canBombPassages}"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "capture_item": true,
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2728,
+                        "y": 820
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 216,
+                        "y": 276
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Dead Spike - Missiles",
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2920,
+                        "y": 820
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 408,
+                        "y": 276
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tourian Gates",
+                "children": [
+                  {
+                    "name": "Gate 10",
+                    "access_rules": [
+                      "$canOpenRedDoors,phantoon"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Tourian Gate",
+                        "hosted_item": "gate10"
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2696,
+                        "y": 788
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 184,
+                        "y": 244
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Deep Wrecked Ship",
+            "color": "#d1b102",
+            "access_rules": [
+              "$canAccessDeepWreckedShip"
+            ],
+            "children": [
+              {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                  {
+                    "name": "Varia Suit",
+                    "access_rules": [
+                      "grapple",
+                      "$canFlyStraightUp"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3080,
+                        "y": 692
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 568,
+                        "y": 148
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wrecked Ship Attic - E-tank",
+                    "access_rules": [
+                      "gravity,$canFlyStraightUp"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3304,
+                        "y": 756
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 792,
+                        "y": 212
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Wrecked Ship - Reserves",
+                    "access_rules": [
+                      "gravity,$canOpenGreenDoors,$canBallJump,$canPowerBomb",
+                      "hijump,phantoon,$canOpenGreenDoors,$canBallJump,$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3336,
+                        "y": 980
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 824,
+                        "y": 436
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                  {
+                    "name": "Green Tower - Supers",
+                    "access_rules": [
+                      "gravity,$canOpenGreenDoors,$canBallJump"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3336,
+                        "y": 788
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 824,
+                        "y": 244
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bowling Chozo",
+                    "access_rules": [
+                      "$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3016,
+                        "y": 948
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 504,
+                        "y": 404
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Outer Maze",
+                    "access_rules": [
+                      "$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3176,
+                        "y": 980
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 664,
+                        "y": 436
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Moss Maze",
+                    "access_rules": [
+                      "$canPowerBomb,bomb,gravity",
+                      "$canPowerBomb,spring"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3304,
+                        "y": 980
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 792,
+                        "y": 436
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tourian Gates",
+                "children": [
+                  {
+                    "name": "Gate 11",
+                    "access_rules": [
+                      "$canBombWalls,spazer",
+                      "$canBombWalls,wave",
+                      "$canBombWalls,ice,bomb",
+                      "$canBombWalls,gravity,bomb",
+                      "$canBombWalls,hijump,bomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Tourian Gate",
+                        "hosted_item": "gate11"
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3112,
+                        "y": 884
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 600,
+                        "y": 340
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gate 12",
+                    "access_rules": [
+                      "gravity,$canOpenGreenDoors,$canBallJump,speed,$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Tourian Gate",
+                        "hosted_item": "gate12"
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3432,
+                        "y": 852
+                      },
+                      {
+                        "map": "wreckedshipmap",
+                        "x": 920,
+                        "y": 308
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Maridia",
+        "access_rules": [
+          "$canAccessMaridia"
+        ],
+        "children": [
+          {
+            "name": "Blue Maridia",
+            "color": "#283888",
+            "children": [
+              {
+                "name": "Major Items",
+                "chest_unopened_img": "images/major_unopened.png",
+                "chest_opened_img": "images/major_opened.png",
+                "children": [
+                  {
+                    "name": "Turtle Reserves",
+                    "access_rules": [
+                      "$canAccessNorfairM,gravity,$canDoCrumblePassages",
+                      "$canAccessMaridiaW,gravity,$canDoCrumblePassages"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3560,
+                        "y": 1108
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 1512,
+                        "y": 244
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gravity Suit",
+                    "access_rules": [
+                      "$canAccessMaridiaMain",
+                      "$canAccessMaridiaW,gravity,botwoon",
+                      "$canPowerBomb,hijump",
+                      "$canPowerBomb,gravity"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2600,
+                        "y": 1172
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 552,
+                        "y": 308
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Pirate E-tank",
+                    "access_rules": [
+                      "$canAccessMaridiaW,gravity,$canGetHighSpeed,$canPowerBomb",
+                      "gravity,$canFlyStraightUp,$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3304,
+                        "y": 1172
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 1256,
+                        "y": 308
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Maridia Tube - E-tank",
+                    "access_rules": [
+                      "$canAccessNorfairM"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3656,
+                        "y": 1300
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 1608,
+                        "y": 436
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Draygon - Chozo Hoard",
+                    "access_rules": [
+                      "draygon"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2984,
+                        "y": 1492
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 936,
+                        "y": 628
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Plasma Beam",
+                    "access_rules": [
+                      "gate13,$canPowerBomb,wave,spring",
+                      "gate13,$canPowerBomb,wave,gravity,$canBallJump"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Major Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3144,
+                        "y": 1652
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 1096,
+                        "y": 788
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Minor Items",
+                "chest_unopened_img": "images/minor_unopened.png",
+                "chest_opened_img": "images/minor_opened.png",
+                "children": [
+                  {
+                    "name": "Botwoon - Power Bombs",
+                    "access_rules": [
+                      "gravity,$canPowerBomb,$canGetHighSpeed",
+                      "$canAccessMaridiaW,gravity,$canBombPassages"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2920,
+                        "y": 1012
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 872,
+                        "y": 148
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Botwoon Bridge",
+                    "access_rules": [
+                      "gate13,botwoon,$canPowerBomb,$canDoCrumblePassages",
+                      "gravity,$canPowerBomb,$canFlyStraightUp,$canDoCrumblePassages"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3208,
+                        "y": 1108
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 1160,
+                        "y": 244
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Maridia Depths - Power Bombs",
+                    "access_rules": [
+                      "$canAccessMaridiaW,gravity,$canGetHighSpeed,$canPowerBomb",
+                      "$canAccessMaridiaW,hijump,ice,$canPowerBomb",
+                      "gravity,$canFlyStraightUp,$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3368,
+                        "y": 1108
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 1320,
+                        "y": 244
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Botwoon Cove - Missile",
+                    "access_rules": [
+                      "gravity,$canPowerBomb,$canGetHighSpeed",
+                      "$canAccessMaridiaW,gravity,$canBombPassages",
+                      "$canAccessMaridiaW,hijump,ice,$canBombPassages"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2952,
+                        "y": 1172
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 904,
+                        "y": 308
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Spike-Sand Valley",
+                    "access_rules": [
+                      "$canAccessMaridiaW,gravity,space",
+                      "$canPowerBomb,gravity,space"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3368,
+                        "y": 1300
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 1320,
+                        "y": 436
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sandfall Missiles",
+                    "access_rules": [
+                      "gravity,$canGetHighSpeed"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2440,
+                        "y": 1332
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 392,
+                        "y": 468
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Maridia Ruins - Left Missile",
+                    "access_rules": [
+                      "gravity",
+                      "$canAccessMaridiaW,$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2856,
+                        "y": 1332
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 808,
+                        "y": 468
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Maridia Ruins - Right Missile",
+                    "access_rules": [
+                      "gravity,$canPowerBomb",
+                      "$canAccessMaridiaW,$canBombPassages"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3144,
+                        "y": 1332
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 1096,
+                        "y": 468
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Shaktool Simulator",
+                    "access_rules": [
+                      "$canAccessMaridiaW,gravity,$canBombPassages",
+                      "$canAccessNorfairM,gravity"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3368,
+                        "y": 1332
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 1320,
+                        "y": 468
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Maridia Tube - Missile",
+                    "access_rules": [
+                      "$canAccessMaridiaW,gravity,$canBombPassages",
+                      "$canAccessNorfairM,gravity"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3592,
+                        "y": 1396
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 1544,
+                        "y": 532
+                      }
+                    ]
+                  },
+                  {
+                    "name": "12th Street - Missile",
+                    "access_rules": [
+                      "gravity,speed"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2792,
+                        "y": 1428
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 744,
+                        "y": 564
+                      }
+                    ]
+                  },
+                  {
+                    "name": "13th Street - Supers",
+                    "access_rules": [
+                      "gate13,$canOpenGreenDoors,gravity,$canBallJump",
+                      "gate13,$canOpenGreenDoors,spring"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2824,
+                        "y": 1460
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 776,
+                        "y": 596
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sandfall Maze - Supers",
+                    "access_rules": [
+                      "gate13,gravity,space,speed,$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3112,
+                        "y": 1492
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 1064,
+                        "y": 628
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Coral Speedway",
+                    "access_rules": [
+                      "gate13,gravity,space,speed"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2888,
+                        "y": 1620
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 840,
+                        "y": 756
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Plasma - Power Bombs",
+                    "access_rules": [
+                      "gate13,gravity,space,speed,$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Minor Item",
+                        "item_count": 1
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3016,
+                        "y": 1620
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 968,
+                        "y": 756
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Tourian Gates",
+                "children": [
+                  {
+                    "name": "Gate 13",
+                    "access_rules": [
+                      "gravity,$canOpenRedDoors",
+                      "$canAccessMaridiaW,hijump,$canPowerBomb"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Tourian Gate",
+                        "hosted_item": "gate13"
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 2856,
+                        "y": 1236
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 808,
+                        "y": 372
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gate 14",
+                    "access_rules": [
+                      "$canAccessNorfairM,$canOpenGreenDoors"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Tourian Gate",
+                        "hosted_item": "gate14"
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3624,
+                        "y": 1236
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 1576,
+                        "y": 372
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Gate 15",
+                    "access_rules": [
+                      "gate13,gravity,space,speed,$canOpenRedDoors"
+                    ],
+                    "sections": [
+                      {
+                        "name": "Tourian Gate",
+                        "hosted_item": "gate15"
+                      }
+                    ],
+                    "map_locations": [
+                      {
+                        "map": "fullmap",
+                        "x": 3240,
+                        "y": 1364
+                      },
+                      {
+                        "map": "maridiamap",
+                        "x": 1192,
+                        "y": 500
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tourian",
+        "color": "#991b8c",
+        "children": [
+          {
+            "name": "Major Items",
+            "chest_unopened_img": "images/major_unopened.png",
+            "chest_opened_img": "images/major_opened.png",
+            "children": [
+              {
+                "name": "Screw Attack",
+                "access_rules": [
+                  "$canAccessScrewAttack"
+                ],
+                "sections": [
+                  {
+                    "name": "Major Item",
+                    "item_count": 1
+                  }
+                ],
+                "map_locations": [
+                  {
+                    "map": "fullmap",
+                    "x": 2120,
+                    "y": 1716
+                  },
+                  {
+                    "map": "tourianmap",
+                    "x": 360,
+                    "y": 372
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

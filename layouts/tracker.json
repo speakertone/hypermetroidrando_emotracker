@@ -1,0 +1,315 @@
+﻿{
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "6,1",
+            "h_alignment": "left",
+            "rows": [
+              [ "sporespawn", "kraid", "charge", "varia", "morph", "hijump" ],
+              [ "crocomire", "phantoon", "ice", "gravity", "bomb", "space" ],
+              [ "botwoon", "draygon", "wave", "", "spring", "speed" ],
+              [ "", "ridley", "spazer", "grapple", "screw", "" ],
+              [ "", "", "plasma", "xray", "", "" ]
+            ]
+          },
+          {
+            "type": "array",
+            "orientation": "vertical",
+            "v_alignment": "center",
+            "margin": "5,0,0,0",
+            "content": [
+              {
+                "type": "itemgrid",
+                "margin": "0,0",
+                "item_margin": "2,0",
+                "h_alignment": "center",
+                "rows": [
+                  [ "missile", "supermissile", "powerbomb" ]
+                ]
+              },
+              {
+                "type": "item",
+                "margin": "7,5,0,15",
+                "item": "ammo",
+                "h_alignment": "center"
+              },
+              {
+                "type": "itemgrid",
+                "margin": "0,4,0,0",
+                "item_margin": "2,0",
+                "h_alignment": "center",
+                "rows": [
+                  [ "etank", "reservetank" ]
+                ]
+              }
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "item_margin": "4,1",
+            "h_alignment": "left",
+            "rows": [
+              [ "gate01", "gate02", "gate03" ], 
+              [ "gate04", "gate05", "gate06" ],
+              [ "gate07", "gate08", "gate09" ], 
+              [ "gate10", "gate11", "gate12" ], 
+              [ "gate13", "gate14", "gate15" ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "itemgrid",
+      "item_margin": "6,1",
+      "h_alignment": "left",
+      "rows": [
+        [ "charge", "varia", "morph", "hijump", "missile" ],
+        [ "ice", "gravity", "bomb", "space", "supermissile" ],
+        [ "wave", "", "spring", "speed", "powerbomb" ],
+        [ "spazer", "grapple", "screw", "", "etank_icon" ],
+        [ "plasma", "xray", "", "", "reservetank_icon" ]
+      ]
+    }
+  },
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "left",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "shared_item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "vertical",
+                "compact": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Full Map",
+              "icon": "images/icon_zebes.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fullmap"
+                ]
+              }
+            },
+            {
+              "title": "Crateria",
+              "icon": "images/icon_starship.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "crateriamap"
+                ]
+              }
+            },
+            {
+              "title": "Brinstar",
+              "icon": "images/icon_dachora.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "brinstarmap"
+                ]
+              }
+            },
+            {
+              "title": "Norfair",
+              "icon": "images/icon_norfair_statue.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "norfairmap"
+                ]
+              }
+            },
+            {
+              "title": "Wrecked Ship",
+              "icon": "images/icon_robot.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "wreckedshipmap"
+                ]
+              }
+            },
+            {
+              "title": "Maridia",
+              "icon": "images/icon_minidraygon.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "maridiamap"
+                ]
+              }
+            },
+            {
+              "title": "Tourian",
+              "icon": "images/icon_metroid.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "tourianmap"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "header": "Items",
+              "dock": "left",
+              "margin": "0,0,3,0",
+              "content": {
+                "type": "layout",
+                "h_alignment": "center",
+                "v_alignment": "center",
+                "key": "shared_item_grid"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Pinned Locations",
+              "content": {
+                "type": "recentpins",
+                "style": "wrap",
+                "h_alignment": "stretch",
+                "v_alignment": "stretch",
+                "orientation": "horizontal",
+                "compact": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Full Map",
+              "icon": "images/icon_zebes.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "fullmap"
+                ]
+              }
+            },
+            {
+              "title": "Crateria",
+              "icon": "images/icon_starship.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "crateriamap"
+                ]
+              }
+            },
+            {
+              "title": "Brinstar",
+              "icon": "images/icon_dachora.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "brinstarmap"
+                ]
+              }
+            },
+            {
+              "title": "Norfair",
+              "icon": "images/icon_norfair_statue.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "norfairmap"
+                ]
+              }
+            },
+            {
+              "title": "Wrecked Ship",
+              "icon": "images/icon_robot.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "wreckedshipmap"
+                ]
+              }
+            },
+            {
+              "title": "Maridia",
+              "icon": "images/icon_minidraygon.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "maridiamap"
+                ]
+              }
+            },
+            {
+              "title": "Tourian",
+              "icon": "images/icon_metroid.png",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "tourianmap"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

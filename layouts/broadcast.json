@@ -1,0 +1,43 @@
+﻿{
+  "tracker_broadcast": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "background": "#000000",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "4,1",
+            "h_alignment": "left",
+            "item_size": 48,
+            "rows": [
+              [ "charge", "varia", "morph" ],
+              [ "ice", "gravity", "bomb" ],
+              [ "wave", "hijump", "spring" ],
+              [ "spazer", "space", "screw" ],
+              [ "plasma", "speed", "" ]
+            ]
+          },
+          {
+            "type": "itemgrid",
+            "item_margin": "4,1",
+            "h_alignment": "left",
+            "item_size": 48,
+            "rows": [
+              [ "gate01", "gate02", "gate03" ],
+              [ "gate04", "gate05", "gate06" ],
+              [ "gate07", "gate08", "gate09" ],
+              [ "gate10", "gate11", "gate12" ],
+              [ "gate13", "gate14", "gate15" ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
